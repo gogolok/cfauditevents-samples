@@ -1,0 +1,42 @@
+{
+  "type": "audit.user.organization_manager_add",
+  "actor": {
+    "guid": "1112c27f-78da-4a87-b6d5-edb5eda5f852",
+    "type": "user",
+    "name": "cf-concourse"
+  },
+  "target": {
+    "guid": "11107445-6be9-45f6-b95a-9177bc526fe5",
+    "type": "user",
+    "name": "someuser"
+  },
+  "data": {
+    "request": {
+      "type": "organization_manager",
+      "relationships": {
+        "organization": {
+          "data": {
+            "guid": "111a7a9b-f14e-448b-8a34-c3a49715c5d3"
+          }
+        },
+        "user": {
+          "data": {
+            "username": "someuser"
+          }
+        }
+      }
+    }
+  },
+  "space": {},
+  "organization": {
+    "guid": "111a7a9b-f14e-448b-8a34-c3a49715c5d3"
+  },
+  "guid": "11110e69-1580-4345-8cfe-4a1d5d8cb63f",
+  "created_at": "2025-05-21T22:13:25Z",
+  "updated_at": "2025-05-21T22:13:25Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/11110e69-1580-4345-8cfe-4a1d5d8cb63f"
+    }
+  }
+}
