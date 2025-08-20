@@ -1,0 +1,39 @@
+{
+  "type": "audit.space.create",
+  "actor": {
+    "guid": "1112c27f-78da-4a87-b6d5-edb5eda5f852",
+    "type": "user",
+    "name": "cf-concourse"
+  },
+  "target": {
+    "guid": "11145ce0-ae1e-4fa1-93ad-2c480dee821a",
+    "type": "space",
+    "name": "dev"
+  },
+  "data": {
+    "request": {
+      "name": "dev",
+      "relationships": {
+        "organization": {
+          "data": {
+            "guid": "1117243b-4782-47ea-a5cc-5934e45cf620"
+          }
+        }
+      }
+    }
+  },
+  "space": {
+    "guid": "11145ce0-ae1e-4fa1-93ad-2c480dee821a"
+  },
+  "organization": {
+    "guid": "1117243b-4782-47ea-a5cc-5934e45cf620"
+  },
+  "guid": "111f6ed7-f1cf-4866-90e7-1f7f3a16a435",
+  "created_at": "2025-05-21T21:59:36Z",
+  "updated_at": "2025-05-21T21:59:36Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111f6ed7-f1cf-4866-90e7-1f7f3a16a435"
+    }
+  }
+}
