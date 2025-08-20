@@ -1,0 +1,30 @@
+{
+  "type": "audit.app.ssh-authorized",
+  "actor": {
+    "guid": "1112c27f-78da-4a87-b6d5-edb5eda5f852",
+    "type": "user",
+    "name": "cf-concourse-"
+  },
+  "target": {
+    "guid": "111159a1-a234-4c16-92d2-3402db424a11",
+    "type": "app",
+    "name": "test-app"
+  },
+  "data": {
+    "index": "0"
+  },
+  "space": {
+    "guid": "111e1dd9-c19a-4127-a08b-91510564a8d2"
+  },
+  "organization": {
+    "guid": "111d5c75-e7cb-44bf-8c8e-f86e4c0d3fd4"
+  },
+  "guid": "11150b53-2ab7-459c-9b29-f44df6ae7099",
+  "created_at": "2025-05-21T22:10:58Z",
+  "updated_at": "2025-05-21T22:10:58Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/11150b53-2ab7-459c-9b29-f44df6ae7099"
+    }
+  }
+}
