@@ -1,0 +1,28 @@
+{
+  "type": "audit.app.delete-request",
+  "actor": {
+    "guid": "1112c27f-78da-4a87-b6d5-edb5eda5f852",
+    "type": "user",
+    "name": "cf-concourse"
+  },
+  "target": {
+    "guid": "111ac300-7d53-4626-a964-448449e7d695",
+    "type": "app",
+    "name": "test-app"
+  },
+  "data": {},
+  "space": {
+    "guid": "111e1dd9-c19a-4127-a08b-91510564a8d2"
+  },
+  "organization": {
+    "guid": "111d5c75-e7cb-44bf-8c8e-f86e4c0d3fd4"
+  },
+  "guid": "11172767-351e-46c4-9338-36fb3baac339",
+  "created_at": "2025-05-21T22:02:10Z",
+  "updated_at": "2025-05-21T22:02:10Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/11172767-351e-46c4-9338-36fb3baac339"
+    }
+  }
+}
