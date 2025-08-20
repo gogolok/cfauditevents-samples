@@ -1,0 +1,37 @@
+{
+  "type": "audit.app.process.crash",
+  "actor": {
+    "guid": "11111edd-372f-43fa-9a10-a9641a30ce45",
+    "type": "process",
+    "name": "cron"
+  },
+  "target": {
+    "guid": "11113c09-47d3-4f5d-b033-880f8c793211",
+    "type": "app",
+    "name": "app-dev"
+  },
+  "data": {
+    "instance": "134d5187-871e-4812-758d-8c45",
+    "index": 0,
+    "cell_id": "a1231724-106c-4bd8-8111-7811cae745d7",
+    "reason": "CRASHED",
+    "exit_description": "Codependent step exited",
+    "crash_count": 1,
+    "crash_timestamp": 1747857600798553900,
+    "version": "81113e33-7a69-48bf-85f7-3818a91d8d15"
+  },
+  "space": {
+    "guid": "333331de-dbb0-45e7-8710-7eba4622fe18"
+  },
+  "organization": {
+    "guid": "44444560-4448-4475-b0d7-540f4d907fff"
+  },
+  "guid": "5560df55-d7d5-4338-bf20-45b2bb8b830c",
+  "created_at": "2025-05-21T20:00:00Z",
+  "updated_at": "2025-05-21T20:00:00Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/5560d7db-d7d5-4338-bf20-45b2bb8b830c"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "type": "audit.service_instance.show",
+  "actor": {
+    "guid": "2222222f-78da-4a87-b6d5-e1b5eda5f852",
+    "type": "user",
+    "name": "cf-concourse"
+  },
+  "target": {
+    "guid": "11111111-037a-428f-9a0f-71a764aee537",
+    "type": "service_instance",
+    "name": "test-service-rabbitmq"
+  },
+  "data": {
+    "request": null
+  },
+  "space": {
+    "guid": "5555cc94-f652-4b3c-b0dc-41fec6877e02"
+  },
+  "organization": {
+    "guid": "9434fad0-fb75-4953-9294-d16146b7e4a1"
+  },
+  "guid": "444ed2ba-4627-4953-bcdd-749d5b47086c",
+  "created_at": "2025-05-21T20:00:00Z",
+  "updated_at": "2025-05-21T20:00:00Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/399ed2ba-4627-4953-bcdd-749d5b47086c"
+    }
+  }
+}
