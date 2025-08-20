@@ -1,0 +1,32 @@
+{
+  "type": "audit.space.delete-request",
+  "actor": {
+    "guid": "1112c27f-78da-4a87-b6d5-edb5eda5f852",
+    "type": "user",
+    "name": "cf-concourse"
+  },
+  "target": {
+    "guid": "111194d0-bae3-4dce-9e01-7b216ffc3f66",
+    "type": "space",
+    "name": "dev"
+  },
+  "data": {
+    "request": {
+      "recursive": true
+    }
+  },
+  "space": {
+    "guid": "111194d0-bae3-4dce-9e01-7b216ffc3f66"
+  },
+  "organization": {
+    "guid": "111d5c75-e7cb-44bf-8c8e-f86e4c0d3fd4"
+  },
+  "guid": "1114871d-fc5d-4ee8-834d-4df1ffd43d4b",
+  "created_at": "2025-05-21T20:00:59Z",
+  "updated_at": "2025-05-21T20:00:59Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/1114871d-fc5d-4ee8-834d-4df1ffd43d4b"
+    }
+  }
+}
