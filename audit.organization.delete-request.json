@@ -1,0 +1,30 @@
+{
+  "type": "audit.organization.delete-request",
+  "actor": {
+    "guid": "1112c27f-78da-4a87-b6d5-edb5eda5f852",
+    "type": "user",
+    "name": "cf-concourse"
+  },
+  "target": {
+    "guid": "11159b58-da5e-415d-bd4c-b13a10dfa4b4",
+    "type": "organization",
+    "name": "some-org"
+  },
+  "data": {
+    "request": {
+      "recursive": true
+    }
+  },
+  "space": {},
+  "organization": {
+    "guid": "11159b58-da5e-415d-bd4c-b13a10dfa4b4"
+  },
+  "guid": "111c386a-60cb-40c5-875f-0a306d507e29",
+  "created_at": "2025-05-21T21:59:43Z",
+  "updated_at": "2025-05-21T21:59:43Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111c386a-60cb-40c5-875f-0a306d507e29"
+    }
+  }
+}
