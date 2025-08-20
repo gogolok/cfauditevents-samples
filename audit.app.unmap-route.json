@@ -1,0 +1,36 @@
+{
+  "type": "audit.app.unmap-route",
+  "actor": {
+    "guid": "1112c27f-78da-4a87-b6d5-edb5eda5f852",
+    "type": "user",
+    "name": "cf-concourse"
+  },
+  "target": {
+    "guid": "111ac300-7d53-4626-a964-448449e7d695",
+    "type": "app",
+    "name": "test-app"
+  },
+  "data": {
+    "route_guid": "1117e4ee-ef46-43a1-b5be-74709d3ab14b",
+    "app_port": 8080,
+    "route_mapping_guid": "111bc6bf-4445-40fe-9189-d12cdf8edeec",
+    "destination_guid": "111bc6bf-4445-40fe-9189-d12cdf8edeec",
+    "process_type": "web",
+    "weight": null,
+    "protocol": "http1"
+  },
+  "space": {
+    "guid": "111e1dd9-c19a-4127-a08b-91510564a8d2"
+  },
+  "organization": {
+    "guid": "111d5c75-e7cb-44bf-8c8e-f86e4c0d3fd4"
+  },
+  "guid": "111e477e-8c63-4a5a-acd9-cfc7fc43f3c8",
+  "created_at": "2025-05-21T22:02:10Z",
+  "updated_at": "2025-05-21T22:02:10Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111e477e-8c63-4a5a-acd9-cfc7fc43f3c8"
+    }
+  }
+}
