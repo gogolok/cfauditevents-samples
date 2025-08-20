@@ -1,0 +1,30 @@
+{
+  "type": "audit.service_instance.start_delete",
+  "actor": {
+    "guid": "1112c27f-78da-4a87-b6d5-edb5eda5f852",
+    "type": "user",
+    "name": "cf-concourse"
+  },
+  "target": {
+    "guid": "1116cde1-eb81-45e4-814f-e7fcbd62be9b",
+    "type": "service_instance",
+    "name": "test-service"
+  },
+  "data": {
+    "request": null
+  },
+  "space": {
+    "guid": "1118caac-1799-4d1f-b77a-0b63f034a380"
+  },
+  "organization": {
+    "guid": "11109a43-0834-4bcb-bb99-00a3cdd38bb5"
+  },
+  "guid": "111a8810-3d1c-435f-a421-b91c2a4f3bc6",
+  "created_at": "2025-05-21T22:04:02Z",
+  "updated_at": "2025-05-21T22:04:02Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111a8810-3d1c-435f-a421-b91c2a4f3bc6"
+    }
+  }
+}
