@@ -1,0 +1,36 @@
+{
+  "type": "audit.app.process.update",
+  "actor": {
+    "guid": "f572c27f-78da-4a87-b6d5-edb5eda5f852",
+    "type": "user",
+    "name": "cf-concourse-2025"
+  },
+  "target": {
+    "guid": "27f159a1-a234-4c16-92d2-3402db424a11",
+    "type": "app",
+    "name": "ct-bindingo-test-app-lifecycle-0"
+  },
+  "data": {
+    "process_guid": "27f159a1-a234-4c16-92d2-3402db424a11",
+    "process_type": "web",
+    "request": {
+      "command": "[PRIVATE DATA HIDDEN]",
+      "type": "web"
+    },
+    "manifest_triggered": true
+  },
+  "space": {
+    "guid": "de7e1dd9-c19a-4127-a08b-91510564a8d2"
+  },
+  "organization": {
+    "guid": "701d5c75-e7cb-44bf-8c8e-f86e4c0d3fd4"
+  },
+  "guid": "c5c562de-2fbc-4629-b48d-56bc3d4d76bb",
+  "created_at": "2025-05-21T22:03:35Z",
+  "updated_at": "2025-05-21T22:03:35Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.02.cf.eu01.stackit.schwarz/v3/audit_events/c5c562de-2fbc-4629-b48d-56bc3d4d76bb"
+    }
+  }
+}
