@@ -1,0 +1,34 @@
+{
+  "type": "audit.service_key.delete",
+  "actor": {
+    "guid": "1112c27f-78da-4a87-b6d5-edb5eda5f852",
+    "type": "user",
+    "name": "cf-concourse"
+  },
+  "target": {
+    "guid": "111b56a2-380a-40e1-aa54-d12938d6608e",
+    "type": "service_key",
+    "name": "test-service-key"
+  },
+  "data": {
+    "request": {
+      "app_guid": null,
+      "route_guid": null,
+      "service_instance_guid": "1116cde1-eb81-45e4-814f-e7fcbd62be9b"
+    }
+  },
+  "space": {
+    "guid": "1118caac-1799-4d1f-b77a-0b63f034a380"
+  },
+  "organization": {
+    "guid": "11109a43-0834-4bcb-bb99-00a3cdd38bb5"
+  },
+  "guid": "111e76d9-9434-45fb-b809-6aa6a536844e",
+  "created_at": "2025-05-21T22:03:56Z",
+  "updated_at": "2025-05-21T22:03:56Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111e76d9-9434-45fb-b809-6aa6a536844e"
+    }
+  }
+}
