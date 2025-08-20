@@ -1,0 +1,34 @@
+{
+  "type": "app.crash",
+  "actor": {
+    "guid": "111f3c09-47d3-4f5d-b033-880f8c793211",
+    "type": "app",
+    "name": "app-qa"
+  },
+  "target": {
+    "guid": "111f3c09-47d3-4f5d-b033-880f8c793211",
+    "type": "app",
+    "name": "app-qa"
+  },
+  "data": {
+    "instance": "111d5187-871e-4812-758d-8c45",
+    "index": 0,
+    "cell_id": "11151724-106c-4bd8-8111-7811cae745d7",
+    "exit_description": "Codependent step exited",
+    "reason": "CRASHED"
+  },
+  "space": {
+    "guid": "111361de-dbb0-45e7-8710-7eba4622fe18"
+  },
+  "organization": {
+    "guid": "11109560-e928-4475-b0d7-540f4d907fff"
+  },
+  "guid": "11183dfb-1406-44f6-8c68-837dfec3191d",
+  "created_at": "2025-05-21T20:00:00Z",
+  "updated_at": "2025-05-21T20:00:00Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/11183dfb-1406-44f6-8c68-837dfec3191d"
+    }
+  }
+}
