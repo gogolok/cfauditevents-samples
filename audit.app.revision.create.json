@@ -8,7 +8,7 @@
   "target": {
     "guid": "111ac300-7d53-4626-a964-448449e7d695",
     "type": "app",
-    "name": "ct-test-app-many-assets-0"
+    "name": "test-app"
   },
   "data": {
     "revision_guid": "111b945a-a0af-4f4f-aa1c-10d8acfcef38",
