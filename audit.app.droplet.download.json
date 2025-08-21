@@ -1,0 +1,30 @@
+{
+  "type": "audit.app.droplet.download",
+  "actor": {
+    "guid": "11173c8f-0852-4439-8d34-25870a16a39f",
+    "type": "user",
+    "name": "some-user"
+  },
+  "target": {
+    "guid": "111dac70-9ca4-46de-a881-8b63bef2b791",
+    "type": "app",
+    "name": "test-app"
+  },
+  "data": {
+    "droplet_guid": "1113c0ac-c45f-4fcd-a66d-11bfe264fbc3"
+  },
+  "space": {
+    "guid": "111420fa-1935-4f19-8d90-726a7e06e81e"
+  },
+  "organization": {
+    "guid": "111b3720-31c4-47c4-a23e-ab21a4e5afc8"
+  },
+  "guid": "111b997f-988a-4901-aab8-06430019e25b",
+  "created_at": "2025-06-03T10:34:02Z",
+  "updated_at": "2025-06-03T10:34:02Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111b997f-988a-4901-aab8-06430019e25b"
+    }
+  }
+}
