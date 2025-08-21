@@ -1,0 +1,28 @@
+{
+  "type": "audit.app.restage",
+  "actor": {
+    "guid": "1119057a-7a9e-478f-8f4d-f3715e3d0cc2",
+    "type": "user",
+    "name": "some-user"
+  },
+  "target": {
+    "guid": "111147f1-b166-41ff-8196-96dd104b8cad",
+    "type": "app",
+    "name": "test-app"
+  },
+  "data": {},
+  "space": {
+    "guid": "111867a7-15be-458c-b6e6-35c1c2643a9b"
+  },
+  "organization": {
+    "guid": "111de984-8918-4b6d-b761-e5a30274286f"
+  },
+  "guid": "111c1043-42d2-41bc-b1e6-5391eedeabe8",
+  "created_at": "2025-05-26T14:43:15Z",
+  "updated_at": "2025-05-26T14:43:15Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111c1043-42d2-41bc-b1e6-5391eedeabe8"
+    }
+  }
+}
