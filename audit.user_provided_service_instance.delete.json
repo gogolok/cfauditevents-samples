@@ -1,0 +1,30 @@
+{
+  "type": "audit.user_provided_service_instance.delete",
+  "actor": {
+    "guid": "11105222-772d-448f-a3a0-84bb8505207c",
+    "type": "user",
+    "name": "some-user"
+  },
+  "target": {
+    "guid": "111c7a21-1256-4318-b61c-5ad843da3366",
+    "type": "user_provided_service_instance",
+    "name": "service-instance"
+  },
+  "data": {
+    "request": {}
+  },
+  "space": {
+    "guid": "111883b5-0531-4578-a8e7-e38419f8faa9"
+  },
+  "organization": {
+    "guid": "1111f720-0f1c-4a55-81ea-a64cbc40b147"
+  },
+  "guid": "1111bc04-01aa-42b6-8bf2-50b818c003ca",
+  "created_at": "2025-06-02T13:15:28Z",
+  "updated_at": "2025-06-02T13:15:28Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/1111bc04-01aa-42b6-8bf2-50b818c003ca"
+    }
+  }
+}
