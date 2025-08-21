@@ -1,0 +1,35 @@
+{
+  "type": "audit.service_broker.update",
+  "actor": {
+    "guid": "1112c27f-78da-4a87-b6d5-edb5eda5f852",
+    "type": "user",
+    "name": "cf-concourse"
+  },
+  "target": {
+    "guid": "1113cb21-4903-416d-8d07-c95857627ad4",
+    "type": "service_broker",
+    "name": "test-service"
+  },
+  "data": {
+    "request": {
+      "authentication": {
+        "credentials": {
+          "password": "[PRIVATE DATA HIDDEN]",
+          "username": "admin"
+        },
+        "type": "basic"
+      },
+      "url": "http://broker.service.com:3000"
+    }
+  },
+  "space": {},
+  "organization": {},
+  "guid": "111dbfa0-5df9-4d7b-8709-4df3b6821384",
+  "created_at": "2025-05-26T06:33:10Z",
+  "updated_at": "2025-05-26T06:33:10Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111dbfa0-5df9-4d7b-8709-4df3b6821384"
+    }
+  }
+}
