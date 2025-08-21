@@ -1,0 +1,47 @@
+{
+  "type": "audit.app.deployment.create",
+  "actor": {
+    "guid": "11134a32-b9fd-4329-9cbe-1010f63b26ca",
+    "type": "user",
+    "name": "someuser"
+  },
+  "target": {
+    "guid": "111feebf-919b-4a71-b915-23fb1a7888c2",
+    "type": "app",
+    "name": "dev"
+  },
+  "data": {
+    "deployment_guid": "111fd4fa-9c31-4d89-ad04-87668dda04b8",
+    "droplet_guid": "111509ca-c70f-4376-8db6-eeebfa4b2020",
+    "type": null,
+    "revision_guid": "11124b05-0603-44ec-8d73-84935dcf4846",
+    "request": {
+      "droplet": {
+        "guid": "111509ca-c70f-4376-8db6-eeebfa4b2020"
+      },
+      "strategy": "rolling",
+      "relationships": {
+        "app": {
+          "data": {
+            "guid": "111feebf-919b-4a71-b915-23fb1a7888c2"
+          }
+        }
+      }
+    },
+    "strategy": "rolling"
+  },
+  "space": {
+    "guid": "111a9368-2759-46b0-9efc-42a01d60bd05"
+  },
+  "organization": {
+    "guid": "11154e2d-54f5-44ff-9cc9-6f28dadab909"
+  },
+  "guid": "1111322d-dba4-466e-894e-066972213003",
+  "created_at": "2025-05-23T05:45:52Z",
+  "updated_at": "2025-05-23T05:45:52Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/1111322d-dba4-466e-894e-066972213003"
+    }
+  }
+}
