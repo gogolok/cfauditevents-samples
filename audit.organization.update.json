@@ -1,0 +1,33 @@
+{
+  "type": "audit.organization.update",
+  "actor": {
+    "guid": "111bec78-38a3-46dc-a602-fb28000b93cb",
+    "type": "user",
+    "name": "some-user"
+  },
+  "target": {
+    "guid": "111e9051-8a72-49c9-a81e-dd7beb7b53ec",
+    "type": "organization",
+    "name": "org0"
+  },
+  "data": {
+    "request": {
+      "user": "111693db-d96b-4860-a08c-94af4b720298",
+      "verb": "remove",
+      "relation": "users",
+      "related_guid": "111693db-d96b-4860-a08c-94af4b720298"
+    }
+  },
+  "space": {},
+  "organization": {
+    "guid": "111e9051-8a72-49c9-a81e-dd7beb7b53ec"
+  },
+  "guid": "11142926-8e87-4f1e-b192-161ea98f7309",
+  "created_at": "2025-06-10T11:38:44Z",
+  "updated_at": "2025-06-10T11:38:44Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/11142926-8e87-4f1e-b192-161ea98f7309"
+    }
+  }
+}
