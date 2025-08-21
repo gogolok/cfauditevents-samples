@@ -1,0 +1,24 @@
+{
+  "type": "audit.service_plan.update",
+  "actor": {
+    "guid": "1113cb21-4903-416d-8d07-c95857627ad4",
+    "type": "service_broker",
+    "name": "test-broker"
+  },
+  "target": {
+    "guid": "11105026-6fd3-4aeb-8320-0272adb6b4b6",
+    "type": "service_plan",
+    "name": "test-plan"
+  },
+  "data": {},
+  "space": {},
+  "organization": {},
+  "guid": "1118419c-53f5-48d3-bc02-7116961c80f8",
+  "created_at": "2025-05-26T06:33:12Z",
+  "updated_at": "2025-05-26T06:33:12Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/1118419c-53f5-48d3-bc02-7116961c80f8"
+    }
+  }
+}
