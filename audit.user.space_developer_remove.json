@@ -1,0 +1,30 @@
+{
+  "type": "audit.user.space_developer_remove",
+  "actor": {
+    "guid": "111c8db5-80df-4aac-a62e-22dc957c3d66",
+    "type": "user",
+    "name": "some-user"
+  },
+  "target": {
+    "guid": "50568e06-b896-4739-a5d4-d136b4f01751",
+    "type": "user",
+    "name": ""
+  },
+  "data": {
+    "request": {}
+  },
+  "space": {
+    "guid": "111777cc-f69a-4597-bf3f-386ff39ef585"
+  },
+  "organization": {
+    "guid": "111b18b0-9b23-4c0c-829a-535a72e711c8"
+  },
+  "guid": "1112b95f-6e57-40aa-b586-b454c56cf12f",
+  "created_at": "2025-05-26T10:03:20Z",
+  "updated_at": "2025-05-26T10:03:20Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/1112b95f-6e57-40aa-b586-b454c56cf12f"
+    }
+  }
+}
