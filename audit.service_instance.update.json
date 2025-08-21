@@ -1,0 +1,39 @@
+{
+  "type": "audit.service_instance.update",
+  "actor": {
+    "guid": "111c8db5-80df-4aac-a62e-22dc957c3d66",
+    "type": "user",
+    "name": "someuser"
+  },
+  "target": {
+    "guid": "111db1fa-a829-4cc8-95fd-816e7dfa8704",
+    "type": "service_instance",
+    "name": "some-instnance"
+  },
+  "data": {
+    "request": {
+      "relationships": {
+        "service_plan": {
+          "data": {
+            "guid": "111a6127-c9b5-4507-91d9-b65f71b0b540"
+          }
+        }
+      },
+      "parameters": "[PRIVATE DATA HIDDEN]"
+    }
+  },
+  "space": {
+    "guid": "11113757-ab9e-4f7b-9042-8c0ef0ea5a96"
+  },
+  "organization": {
+    "guid": "11126db4-de7b-4026-a933-087ae2c69af8"
+  },
+  "guid": "1118e41b-e39d-4ad1-9a71-26116fe706ad",
+  "created_at": "2025-05-26T07:33:15Z",
+  "updated_at": "2025-05-26T07:33:15Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/1118e41b-e39d-4ad1-9a71-26116fe706ad"
+    }
+  }
+}
