@@ -1,0 +1,40 @@
+{
+  "type": "audit.user_provided_service_instance.create",
+  "actor": {
+    "guid": "111dffb1-6d90-4e1a-825c-1741a160711e",
+    "type": "user",
+    "name": "some-user"
+  },
+  "target": {
+    "guid": "111c7a21-1256-4318-b61c-5ad843da3366",
+    "type": "user_provided_service_instance",
+    "name": "instance0"
+  },
+  "data": {
+    "request": {
+      "space_guid": "111883b5-0531-4578-a8e7-e38419f8faa9",
+      "name": "instance0",
+      "credentials": "[REDACTED]",
+      "syslog_drain_url": "",
+      "route_service_url": "",
+      "tags": [
+        "messaging",
+        "queue"
+      ]
+    }
+  },
+  "space": {
+    "guid": "111883b5-0531-4578-a8e7-e38419f8faa9"
+  },
+  "organization": {
+    "guid": "1111f720-0f1c-4a55-81ea-a64cbc40b147"
+  },
+  "guid": "111c7c4c-c107-4266-98c0-a1287080ba86",
+  "created_at": "2025-05-27T15:32:14Z",
+  "updated_at": "2025-05-27T15:32:14Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111c7c4c-c107-4266-98c0-a1287080ba86"
+    }
+  }
+}
