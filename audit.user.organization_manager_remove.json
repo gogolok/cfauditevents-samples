@@ -1,0 +1,28 @@
+{
+  "type": "audit.user.organization_manager_remove",
+  "actor": {
+    "guid": "11173c8f-0852-4439-8d34-25870a16a39f",
+    "type": "user",
+    "name": "some-user"
+  },
+  "target": {
+    "guid": "111c95d4-e148-4052-931d-445eb3f09163",
+    "type": "user",
+    "name": ""
+  },
+  "data": {
+    "request": {}
+  },
+  "space": {},
+  "organization": {
+    "guid": "11107ddf-3bd0-481d-aa70-b253726f1a71"
+  },
+  "guid": "111956bf-7eb2-4974-89ca-bce8030863fd",
+  "created_at": "2025-06-25T10:50:06Z",
+  "updated_at": "2025-06-25T10:50:06Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111956bf-7eb2-4974-89ca-bce8030863fd"
+    }
+  }
+}
