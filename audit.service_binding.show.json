@@ -1,0 +1,33 @@
+{
+  "type": "audit.service_binding.show",
+  "actor": {
+    "guid": "some-broker",
+    "type": "user",
+    "name": ""
+  },
+  "target": {
+    "guid": "11118860-f4e1-4887-a34d-e77d7c391994",
+    "type": "service_binding",
+    "name": ""
+  },
+  "data": {
+    "request": {
+      "service_instance_guid": "111bfdb7-35b8-4672-9609-6d12b2652ce1",
+      "app_guid": "1110d07f-f45e-4f7a-9a52-db19defcbff5"
+    }
+  },
+  "space": {
+    "guid": "111fcff1-8285-4588-b2e6-326097f6c807"
+  },
+  "organization": {
+    "guid": "111c94b0-c887-439f-a5fe-f31d89729a78"
+  },
+  "guid": "11132e2e-972b-437e-bd32-e13380d0e1be",
+  "created_at": "2025-07-11T15:27:23Z",
+  "updated_at": "2025-07-11T15:27:23Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/11132e2e-972b-437e-bd32-e13380d0e1be"
+    }
+  }
+}
