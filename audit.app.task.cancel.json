@@ -1,0 +1,35 @@
+{
+  "type": "audit.app.task.cancel",
+  "actor": {
+    "guid": "11142c5d-3d5f-495d-97d1-e303c975a000",
+    "type": "user",
+    "name": "some-user"
+  },
+  "target": {
+    "guid": "1114f5f9-33f6-4e45-a4a9-bc60a199f0ad",
+    "type": "app",
+    "name": "app-test"
+  },
+  "data": {
+    "task_guid": "11133f7c-5a7e-44f5-81fc-c18a0c1a406f",
+    "request": {
+      "name": "some-task",
+      "memory_in_mb": 128,
+      "command": "[PRIVATE DATA HIDDEN]"
+    }
+  },
+  "space": {
+    "guid": "11183413-5302-4148-8460-7f75413a2d35"
+  },
+  "organization": {
+    "guid": "111d8b1c-fe4c-4d77-976e-d4cbce37a3d5"
+  },
+  "guid": "1119aaa7-b9fb-4fc1-adc5-f403743c02b8",
+  "created_at": "2025-06-30T13:02:23Z",
+  "updated_at": "2025-06-30T13:02:23Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/1119aaa7-b9fb-4fc1-adc5-f403743c02b8"
+    }
+  }
+}
