@@ -1,0 +1,28 @@
+{
+  "type": "audit.user.organization_billing_manager_add",
+  "actor": {
+    "guid": "1110f289-58fc-4587-84d1-1dad1608666c",
+    "type": "user",
+    "name": "some-user"
+  },
+  "target": {
+    "guid": "111f173a-d016-416c-be37-3ef61ed34b7f",
+    "type": "user",
+    "name": "other-user"
+  },
+  "data": {
+    "request": null
+  },
+  "space": {},
+  "organization": {
+    "guid": "111eb0dd-faac-4d24-9ce8-4764045c0a06"
+  },
+  "guid": "111a6002-0299-4081-8546-65a55da0c96e",
+  "created_at": "2025-08-08T07:57:14Z",
+  "updated_at": "2025-08-08T07:57:14Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111a6002-0299-4081-8546-65a55da0c96e"
+    }
+  }
+}
