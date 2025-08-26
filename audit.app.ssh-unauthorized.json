@@ -1,0 +1,30 @@
+{
+   "type" : "audit.app.ssh-unauthorized",
+   "actor" : {
+      "guid" : "111dc594-e812-4617-9b98-ef38848b1713",
+      "name" : "some-user",
+      "type" : "user"
+   },
+   "data" : {
+      "index" : "0"
+   },
+   "guid" : "11167eaa-2b9e-45e0-aaa5-b11485811b4f",
+   "links" : {
+      "self" : {
+         "href" : "https://api.system.example.com/v3/audit_events/11167eaa-2b9e-45e0-aaa5-b11485811b4f"
+      }
+   },
+   "organization" : {
+      "guid" : "111ceca2-55a9-410d-87c3-9c47be229908"
+   },
+   "space" : {
+      "guid" : "11104aa5-18af-4b61-9fee-d910390325cd"
+   },
+   "target" : {
+      "guid" : "111d3503-7c70-4685-a887-8ad427783e52",
+      "name" : "debian",
+      "type" : "app"
+   },
+   "created_at" : "2025-07-07T10:42:56Z",
+   "updated_at" : "2025-07-07T10:42:56Z"
+}
