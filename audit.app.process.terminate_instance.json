@@ -1,0 +1,32 @@
+{
+  "type": "audit.app.process.terminate_instance",
+  "actor": {
+    "guid": "111c7441-4c69-4c39-b974-43e35cfaffc6",
+    "type": "user",
+    "name": "some-user"
+  },
+  "target": {
+    "guid": "111f4a4a-8613-45a4-8946-d718495715bf",
+    "type": "app",
+    "name": "test-prod"
+  },
+  "data": {
+    "process_guid": "111a2b2b-280b-4b3e-a5fd-45c1ea8245bb",
+    "process_type": "web",
+    "process_index": 0
+  },
+  "space": {
+    "guid": "111029db-fbd5-4bf7-9429-2a9dcc5c3335"
+  },
+  "organization": {
+    "guid": "11100004-f913-48b5-852a-d3feda1cd3f2"
+  },
+  "guid": "111c5904-1b97-4bca-9d6e-caae1ac51adb",
+  "created_at": "2025-05-28T11:01:45Z",
+  "updated_at": "2025-05-28T11:01:45Z",
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111c5904-1b97-4bca-9d6e-caae1ac51adb"
+    }
+  }
+}
