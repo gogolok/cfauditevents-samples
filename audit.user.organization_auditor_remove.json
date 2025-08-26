@@ -1,0 +1,28 @@
+{
+   "actor" : {
+      "guid" : "111f4d43-e13b-4a20-8a37-f36081bdc596",
+      "name" : "some-user",
+      "type" : "user"
+   },
+   "created_at" : "2025-08-24T08:40:10Z",
+   "data" : {
+      "request" : {}
+   },
+   "guid" : "111efc07-1501-4ada-ab2c-b3ec41410297",
+   "links" : {
+      "self" : {
+         "href" : "https://api.system.example.com/v3/audit_events/111efc07-1501-4ada-ab2c-b3ec41410297"
+      }
+   },
+   "organization" : {
+      "guid" : "1116f997-67fa-4d60-9165-2e2e25085034"
+   },
+   "space" : null,
+   "target" : {
+      "guid" : "111f4d43-e13b-4a20-8a37-f36081bdc596",
+      "name" : "",
+      "type" : "user"
+   },
+   "type" : "audit.user.organization_auditor_remove",
+   "updated_at" : "2025-08-24T08:40:10Z"
+}
