@@ -1,0 +1,28 @@
+{
+   "actor" : {
+      "guid" : "1119ebe3-08d3-490f-8d53-97a6fcb225f2",
+      "type" : "user",
+      "name" : "some-user"
+   },
+   "created_at" : "2025-07-03T15:04:56Z",
+   "data" : {
+      "request" : {}
+   },
+   "guid" : "111f0a11-898d-4412-af5a-cd780fc6f710",
+   "links" : {
+      "self" : {
+         "href" : "https://api.system.example.com/v3/audit_events/111f0a11-898d-4412-af5a-cd780fc6f710"
+      }
+   },
+   "organization" : {
+      "guid" : "11120c93-9ab6-4679-855c-021e72530e68"
+   },
+   "space" : null,
+   "target" : {
+      "guid" : "1115b5fd-285a-4ee6-a7fb-192f98f2e078",
+      "name" : "",
+      "type" : "user"
+   },
+   "type" : "audit.user.organization_billing_manager_remove",
+   "updated_at" : "2025-07-03T15:04:56Z"
+}
