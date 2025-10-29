@@ -1,0 +1,27 @@
+{
+   "actor" : {
+      "guid" : "12345678-3abb-4ff6-abca-7fe49848a542",
+      "name" : "some-service",
+      "type" : "service_broker"
+   },
+   "created_at" : "2025-10-23T08:07:23Z",
+   "data" : {
+      "redirect_uri" : "https://some-dashboard.example.com",
+      "secret" : "[REDACTED]"
+   },
+   "guid" : "12345678-a0d9-423b-b832-9d0180762395",
+   "links" : {
+      "self" : {
+         "href" : "https://api.system.example.com/v3/audit_events/12345678-a0d9-423b-b832-9d0180762395"
+      }
+   },
+   "organization" : null,
+   "space" : null,
+   "target" : {
+      "guid" : "dashboard-client-id",
+      "name" : "dashboard-client-name",
+      "type" : "service_dashboard_client"
+   },
+   "type" : "audit.service_dashboard_client.create",
+   "updated_at" : "2025-10-23T08:07:23Z"
+}
