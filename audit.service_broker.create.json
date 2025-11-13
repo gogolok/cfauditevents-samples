@@ -1,0 +1,43 @@
+{
+  "guid": "111b69c2-2403-4c69-b251-d0f1f7c5cee2",
+  "created_at": "2025-11-12T15:13:01Z",
+  "updated_at": "2025-11-12T15:13:01Z",
+  "type": "audit.service_broker.create",
+  "actor": {
+    "guid": "11113e80-55a1-47dd-ae6a-270cbaa4f6d4",
+    "type": "user",
+    "name": "someuser@example.com"
+  },
+  "target": {
+    "guid": "111107a6-ee2d-4117-b30d-fc7299e73dd0",
+    "type": "service_broker",
+    "name": "my-service-broker"
+  },
+  "data": {
+    "request": {
+      "authentication": {
+        "credentials": {
+          "password": "[PRIVATE DATA HIDDEN]",
+          "username": "some-broker-user"
+        },
+        "type": "basic"
+      },
+      "name": "my-service-broker",
+      "relationships": {
+        "space": {
+          "data": {
+            "guid": "1118996a-45c4-4af6-ac7b-4cded88910e7"
+          }
+        }
+      },
+      "url": "https://broker.service.com:3000"
+    }
+  },
+  "space": null,
+  "organization": null,
+  "links": {
+    "self": {
+      "href": "https://api.system.example.com/v3/audit_events/111b69c2-2403-4c69-b251-d0f1f7c5cee2"
+    }
+  }
+}
