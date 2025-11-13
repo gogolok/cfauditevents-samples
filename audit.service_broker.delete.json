@@ -1,0 +1,26 @@
+{
+  "guid": "11122124-a53a-41ac-897d-cd6c4f2ca2fd",
+  "created_at": "2025-11-12T15:13:33Z",
+  "updated_at": "2025-11-12T15:13:33Z",
+  "type": "audit.service_broker.delete",
+  "actor": {
+    "guid": "11113e80-55a1-47dd-ae6a-270cbaa4f6d4",
+    "type": "user",
+    "name": "someuser@example.com"
+  },
+  "target": {
+    "guid": "111107a6-ee2d-4117-b30d-fc7299e73dd0",
+    "type": "service_broker",
+    "name": "my-service-broker"
+  },
+  "data": {
+    "request": {}
+  },
+  "space": null,
+  "organization": null,
+  "links": {
+    "self": {
+      "href": "https://api.system.00.cf.eu01.stackit.schwarz/v3/audit_events/11122124-a53a-41ac-897d-cd6c4f2ca2fd"
+    }
+  }
+}
